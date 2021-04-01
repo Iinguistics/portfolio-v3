@@ -1,0 +1,25 @@
+{
+    "id": "project-04",
+    "title": "Algorithm Archive",
+    "category": "HonKit",
+    "repo": "https://github.com/algorithm-archivists/algorithm-archive",
+    "live": "https://www.algorithm-archive.org/",
+    "client": "Arloko Corp",
+    "imgesBY": "Draxler",
+    "year": "2009 - 2019",
+    "featured_image": "./images/algoarchive.jpg",
+    "is_featured": true,
+    "body": [
+        "Open source project I am contributing to. A guide for all algorithms in all languages. This project brings the joy's of algorithm's into a good learning resource for everyone to explore & learn."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-02.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-03.jpg"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "project-03",
+    "title": "Spybook",
+    "category": "React, Chartjs, Node.js, MongoDB, Bcryptjs, Twitch API",
+    "client": "Arloko Corp",
+    "repo": "https://github.com/Iinguistics/spybook",
+    "live": "https://www.myspybook.com/",
+    "imgesBY": "Draxler",
+    "year": "2009 - 2019",
+    "featured_image": "./images/spybook.jpg",
+    "is_featured": true,
+    "body": [
+        "A data tool to help twitch streamers grow their channel's."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-02.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-03.jpg"
+        }
+    ]
+}

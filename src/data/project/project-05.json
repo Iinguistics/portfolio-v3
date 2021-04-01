@@ -1,0 +1,26 @@
+{
+    "id": "project-05",
+    "title": "Astrospace",
+    "category": "React, Tailwind, Nasa APOD, LandSat & Rover API's, Axios",
+    "repo": "https://github.com/Iinguistics/astrospace",
+    "live": "https://astro-space.netlify.app/",
+    "client": "Arloko Corp",
+    "imgesBY": "Draxler",
+    "year": "2009 - 2019",
+    "featured_image": "./images/astrospace.jpg",
+    "is_featured": true,
+    "body": [
+        "Astronomy app, to learn about the stars, planets. Enter any latitude and longitude coordinates & see a bird's eye view from a nasa satellite of your coordinates."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-02.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-03.jpg"
+        }
+    ]
+
+}

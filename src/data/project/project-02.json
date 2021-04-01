@@ -1,0 +1,25 @@
+{
+    "id": "project-02",
+    "title": "Hair",
+    "category": "Vue, Node.js, MongoDB, Bcrypt, Three.js",
+    "client": "Arloko Corp",
+    "repo": "https://github.com/Iinguistics/Hair",
+    "live": "https://hair-salon-site.herokuapp.com/",
+    "imgesBY": "Draxler",
+    "year": "2009 - 2019",
+    "featured_image": "./images/hair.jpg",
+    "is_featured": true,
+    "body": [
+        "A full stack crud app. Clients can browse through services & book appointments. Employees can login to an employee dashboard to view, update & delete appointments. I also implemented backend logic that will check existing appointments vs the appointment time & date that the customer is submitting so there can't be five appointments for the same time with only 3 employees on duty, ect..."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-02.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-03.jpg"
+        }
+    ]
+}

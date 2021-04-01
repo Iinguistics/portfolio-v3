@@ -1,0 +1,24 @@
+{
+    "id": "project-01",
+    "title": "Tech Factory",
+    "category": "React, Redux, React-Bootstrap, Node.js, MongoDB, PaypalAPI",
+    "repo": "https://github.com/Iinguistics/tech-factory",
+    "live": "https://tech-factory.herokuapp.com/",
+    "imgesBY": "Draxler",
+    "year": "2009 - 2019",
+    "featured_image": "./images/techfactory.jpg",
+    "is_featured": true,
+    "body": [
+        "Full stack ecommerce app. User's can login to shop/purchase products. Admins can edit/update users, products & deliveries."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-03.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-03.jpg"
+        }
+    ]
+}
