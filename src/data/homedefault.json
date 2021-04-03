@@ -77,18 +77,6 @@
         "title": "Featured Works",
         "description": "In other words, the best marketing decision you can make is to have a product or business that fulfills a real and compelling need for a real and defined group of people — no matter how much tweaking and refining this takes.(c)"
     },
-    {
-        "id": "chooseus",
-        "imagegroup": [
-            {
-                "image": "./images/others/why-1.jpg"
-            },
-            {
-                "image": "./images/others/why-2.jpg"
-            }
-        ]
-        
-    },
 
     {
         "id": "skillTwo",
@@ -170,6 +158,6 @@
     {
         "id": "contactus",
         "title": "Get in Touch",
-        "subtitle": "Crowds are the most difficult thing for me these days because I have to walk with my head down and my eyes averted. There's still that part of me that wants to hold my head up, make eye contact and smile. (c)"
+        "subtitle": ""
     }
 ]
