@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../components/layout";
 import { FiList, FiGithub, FiActivity } from "react-icons/fi";
-import { FaCodepen } from "react-icons/fa";
+import { FaCodepen, FaCaretDown } from "react-icons/fa";
 import ctdiMp4 from '../data/project/video/ctdi.mp4';
 import stockMp4 from '../data/project/video/stock-project.mp4';
 import forkMp4 from '../data/project/video/fork.mp4';
@@ -45,10 +45,11 @@ const more = () => {
                             </div>
                         </div>
                     </div>
+                    <Link to="#ctdi" className='down-arrow'><FaCaretDown /></Link>
                 </div>
             </div>
            {/* ctdi  */}
-            <div className="rn-project-details-area rn-section-gap bg-color-white">
+            <div className="rn-project-details-area rn-section-gap bg-color-white" id="ctdi">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -79,11 +80,12 @@ const more = () => {
                             </div>
                         </div>
                     </div>
+                    <Link to="#fork-rest" className='down-arrow'><FaCaretDown /></Link>
                 </div>
             </div>
 
               {/* fork restaurant  */}
-            <div className="rn-project-details-area rn-section-gap bg-color-white">
+            <div className="rn-project-details-area rn-section-gap bg-color-white" id="fork-rest">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -114,10 +116,11 @@ const more = () => {
                             </div>
                         </div>
                     </div>
+                   <Link to="#even-more" className='down-arrow'><FaCaretDown /></Link>
                 </div>
             </div>
 
-            <div className="rn-project-details-area rn-section-gap bg-color-white">
+            <div className="rn-project-details-area rn-section-gap bg-color-white" id="even-more">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
