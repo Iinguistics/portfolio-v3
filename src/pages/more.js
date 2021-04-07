@@ -5,6 +5,7 @@ import { FaCodepen, FaCaretDown } from "react-icons/fa";
 import ctdiMp4 from '../data/project/video/ctdi.mp4';
 import stockMp4 from '../data/project/video/stock-project.mp4';
 import forkMp4 from '../data/project/video/fork.mp4';
+import unsplashApiMp4 from '../data/project/video/unsplash-api.mp4';
 import {Link} from 'gatsby'
 
 
@@ -39,6 +40,42 @@ const more = () => {
                                 
                                 <div className="thumbnail mt--90 mt_md--40 mt_sm--40 ">
                                     <video autoPlay muted loop className="w-100"> <source src={stockMp4}  type="video/mp4"/>
+                                     Sorry, your browser doesn't support embedded videos.
+                                     </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <Link to="#unsplash-api" className='down-arrow'><FaCaretDown /></Link>
+                </div>
+            </div>
+            {/* unsplash api */}
+        <div className="rn-project-details-area rn-section-gap bg-color-white" id="unsplash-api">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="inner">
+                                <div className="portfolio-content">
+                                    <div className="row">
+                                        <div className="col-lg-12 col-md-12 col-12">
+                                            <div className="content-left">
+                                                <div className="page-top">
+                                                    <h1 className="title_holder">Unsplash Image Search</h1>
+                                                </div>
+                                                <h3 className="mt--20">Details</h3>
+                                                <ul className="list_holder">
+                                                    <li><span className="icon"><FiList />Stack:</span><span className="projectinfo">Vue, Axios, Unsplash API</span></li>
+                                                    <li><span className="icon"><FiGithub />Code:</span><span className="projectinfo"><a href="https://github.com/Iinguistics/unsplash-api" target= "_blank" rel="noopener noreferrer">Visit Repo</a></span></li>
+                                                    <li><span className="icon"><FiActivity />Live Site:</span><span className="projectinfo"><a href="https://unsplash-api-vue.netlify.app" target= "_blank" rel="noopener noreferrer">Visit Site</a></span></li>
+                                                </ul>
+                                                <p className="mt--20">Search for any high res image, using the unsplash API.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div className="thumbnail mt--90 mt_md--40 mt_sm--40 ">
+                                    <video autoPlay muted loop className="w-100"> <source src={unsplashApiMp4}  type="video/mp4"/>
                                      Sorry, your browser doesn't support embedded videos.
                                      </video>
                                 </div>
