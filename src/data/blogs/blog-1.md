@@ -87,7 +87,7 @@ Also you will have a .gitignore file in your frontend directory, move that up on
 <div class="screenshot">
  <img src="../images/blog/react-node-template/screenshot-16.png" alt="code screenshot-16" />
 </div>
-<p>Inside your .git file add the variable's below.</p>
+<p>Inside your .env file add the variable's below.</p>
 <div class="screenshot">
  <img src="../images/blog/react-node-template/screenshot-17.png" alt="code screenshot-17" />
 </div>
