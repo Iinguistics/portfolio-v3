@@ -200,7 +200,7 @@ const more = () => {
                               Stack:
                             </span>
                             <span className="projectinfo">
-                              Vue, Axios, Unsplash API
+                              React, Typescript, Axios, Unsplash API
                             </span>
                           </li>
                           <li>
@@ -210,7 +210,7 @@ const more = () => {
                             </span>
                             <span className="projectinfo">
                               <a
-                                href="https://github.com/Iinguistics/unsplash-api"
+                                href="https://github.com/Iinguistics/unsplash-api-ts"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
@@ -225,7 +225,7 @@ const more = () => {
                             </span>
                             <span className="projectinfo">
                               <a
-                                href="https://unsplash-api-vue.netlify.app"
+                                href="https://unsplashapi-react.netlify.app"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
