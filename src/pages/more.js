@@ -52,21 +52,6 @@ const more = () => {
                               </a>
                             </span>
                           </li>
-                          <li>
-                            <span className="icon">
-                              <FiActivity />
-                              Live Site:
-                            </span>
-                            <span className="projectinfo">
-                              <a
-                                href="https://static-facebook-clone.netlify.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                Visit Site
-                              </a>
-                            </span>
-                          </li>
                         </ul>
                         <p className="mt--20">
                           FaceBook clone static page built with HTML & CSS using
