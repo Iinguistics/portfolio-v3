@@ -1,16 +1,12 @@
 {
     "id": "project-05",
-    "title": "Astrospace",
-    "category": "React, Tailwind, Nasa APOD, LandSat & Rover API's, Axios",
-    "repo": "https://github.com/Iinguistics/astrospace",
-    "live": "https://astro-space.netlify.app/",
-    "client": "Arloko Corp",
-    "imgesBY": "Draxler",
-    "year": "2009 - 2019",
-    "featured_image": "./images/astrospace.jpg",
+    "title": "HBO Max Clone",
+    "category": "React, React Context API, Next.js, Sass, & 3rd party API's",
+    "repo": "https://github.com/Iinguistics/hbo-max-clone",
+    "featured_image": "./images/hbo-max-clone.png",
     "is_featured": true,
     "body": [
-        "Astronomy app, to learn about the stars, planets. Enter any latitude and longitude coordinates & see a bird's eye view from a nasa satellite of your coordinates."
+        "Log in, search for movies & tv series & save your favorites to your list. Main focus was on a clean looking UI built with next.js"
     ],
     "features": [
         {

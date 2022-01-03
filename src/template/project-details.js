@@ -14,6 +14,7 @@ import astroMp4 from '../data/project/video/astro-space.mp4';
 import naturaMp4 from '../data/project/video/natura.mp4';
 import forkMp4 from '../data/project/video/fork.mp4';
 import rolodexMp4 from '../data/project/video/rolodex-preview.mp4';
+import hboMaxMp4 from '../data/project/video/hbo-max-clone.mp4';
 
 const ProjectDetails = ({ data }) => {
 	const projectData = data.projectJson;
@@ -30,8 +31,8 @@ const ProjectDetails = ({ data }) => {
 			setMp4(stockMp4);
 		} else if (projectData.title === 'Algorithm Archive') {
 			setMp4(algoMp4);
-		} else if (projectData.title === 'Astrospace') {
-			setMp4(astroMp4);
+		} else if (projectData.title === 'HBO Max Clone') {
+			setMp4(hboMaxMp4);
 		} else if (projectData.title === 'Natura') {
 			setMp4(naturaMp4);
 		} else if (projectData.title === 'Fork Restaurant') {
@@ -106,21 +107,23 @@ const ProjectDetails = ({ data }) => {
 																	</a>
 																</span>
 															</li>
-															<li>
-																<span className='icon'>
-																	<FiActivity />
-																	Live Site:
-																</span>
-																<span className='projectinfo'>
-																	<a
-																		href={projectData.live}
-																		target='_blank'
-																		rel='noopener noreferrer'
-																	>
-																		Visit Site
-																	</a>
-																</span>
-															</li>
+															{projectData.live ? (
+																<li>
+																	<span className='icon'>
+																		<FiActivity />
+																		Live Site:
+																	</span>
+																	<span className='projectinfo'>
+																		<a
+																			href={projectData.live}
+																			target='_blank'
+																			rel='noopener noreferrer'
+																		>
+																			Visit Site
+																		</a>
+																	</span>
+																</li>
+															) : null}
 														</>
 													)}
 												</ul>
